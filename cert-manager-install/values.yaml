@@ -1,0 +1,14 @@
+acme_email: ''
+acme_server: https://acme-v02.api.letsencrypt.org/directory
+cloudflare_api_token: ''
+
+cert-manager:
+  enabled: false
+  global:
+    logLevel: 2
+  installCRDs: true
+  podDnsPolicy: "None"
+  podDnsConfig:
+    nameservers:
+      - "1.1.1.1"
+      - "1.0.0.1"

@@ -1,0 +1,14 @@
+apiVersion: v2
+name: cert-manager-install
+description: |
+  A Helm chart for installing and configuring cert-manager
+  in my home lab environment using Cloudflare, Lets Encrypt
+  and the ACME DNS01 challenge Cluster Issuer.
+type: application
+version: 0.1.0
+appVersion: "v1.9.1"
+dependencies:
+  - name: cert-manager
+    repository: https://charts.jetstack.io
+    version: v1.9.1
+    condition: cert-manager.enabled
