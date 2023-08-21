@@ -6,9 +6,9 @@ description: |
   and the ACME DNS01 challenge Cluster Issuer.
 type: application
 version: 0.1.0
-appVersion: "v1.9.1"
+appVersion: "v1.12.3"
 dependencies:
   - name: cert-manager
     repository: https://charts.jetstack.io
-    version: v1.9.1
+    version: v1.12.3
     condition: cert-manager.enabled
