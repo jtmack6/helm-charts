@@ -5,7 +5,7 @@ description: |
   in my home lab environment using Cloudflare, Lets Encrypt
   and the ACME DNS01 challenge Cluster Issuer.
 type: application
-version: 0.1.1
+version: 0.1.2
 appVersion: "v1.12.3"
 dependencies:
   - name: cert-manager
