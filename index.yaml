@@ -1,0 +1,32 @@
+apiVersion: v1
+entries:
+  cert-manager-install:
+  - apiVersion: v2
+    appVersion: v1.12.3
+    created: "2023-08-21T22:41:51.622536-07:00"
+    dependencies:
+    - condition: cert-manager.enabled
+      name: cert-manager
+      repository: https://charts.jetstack.io
+      version: v1.12.3
+    description: 'A Helm chart for installing and configuring cert-manager in my home
+      lab environment using Cloudflare, Lets Encrypt and the ACME DNS01 challenge
+      Cluster Issuer. '
+    digest: eeb5d6682e501d7a625bf7852c03043b0f8f7afe0b48c5183f04090e17c499eb
+    name: cert-manager-install
+    type: application
+    urls:
+    - https://jtmack6.github.io/helm-charts/cert-manager-install-0.1.1.tgz
+    version: 0.1.1
+  helm-chart-test:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-08-21T22:41:51.622985-07:00"
+    description: A Helm chart for Kubernetes
+    digest: 1e8720991aad3faadd041ac3723feb504cd2839ae0bd565854deab6cc05b0076
+    name: helm-chart-test
+    type: application
+    urls:
+    - https://jtmack6.github.io/helm-charts/helm-chart-test-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-08-21T22:41:51.619397-07:00"
